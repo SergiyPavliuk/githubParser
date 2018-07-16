@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootswatch.css">
+    <title>Github finder </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+              GitHub Finder
+            </a>
+        </div>
+    </nav>
+    <div class="container searchContainer">
+        <div class="search card car-body">
+            <h1>Search github users</h1>
+            <p class="lead">Enter a username fo fetch a user and repos</p>
+            <input type="text" id="searchUser" class="form-control" placeholder="GitHub username">
+        </div>
+        <br>
+        <div id="profile"></div>
+        <div id="repos"></div>
+    </div>
+    
+    <script src='js/jquery-3.2.1.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/github.js'></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
